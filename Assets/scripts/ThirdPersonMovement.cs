@@ -11,7 +11,7 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
-
+    public Animator anim;
     public float speed = 6f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -36,6 +36,38 @@ public class ThirdPersonMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
+        if (Input.GetKeyDown(KeyCode.W)) 
+        {
+            anim.SetTrigger("walk");
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            anim.SetTrigger("idle");
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            anim.SetTrigger("walk");
+        }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            anim.SetTrigger("idle");
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            anim.SetTrigger("walk");
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            anim.SetTrigger("idle");
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            anim.SetTrigger("walk");
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            anim.SetTrigger("idle");
+        }
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
