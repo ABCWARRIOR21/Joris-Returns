@@ -32,6 +32,12 @@ public class PlayerHealth : MonoBehaviour
           Kill();
         }
     }
+    public void Kill()
+    {
+       Destroy(gameObject);
+    }
+
+
     public int GetHealth()
     {
         return currentHealth;
@@ -42,12 +48,6 @@ public class PlayerHealth : MonoBehaviour
     {
         return startingHealth;
     }
-
-    public void Kill()
-    {
-       Destroy(gameObject);
-    }
-
 
 
 }
