@@ -3053,6 +3053,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 85.608
       objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+      propertyPath: m_Size.x
+      value: 1.004598
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+      propertyPath: m_Size.y
+      value: 1.805035
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+      propertyPath: m_Center.x
+      value: 0.007584676
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+      propertyPath: m_Center.y
+      value: 0.04910469
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+      propertyPath: m_Center.z
+      value: 1.513476
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
 --- !u!1001 &822785414
@@ -3280,6 +3304,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b70eb1cf1be37564f8063fba2095584b, type: 3}
+--- !u!1 &888808494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d48a7a7e3030b9047981fab701491ef3, type: 3}
+  m_PrefabInstance: {fileID: 813255855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &888808495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888808494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f5a78d5609dd14bb1e81ee1582cc27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &926159318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 824b045cfb5412444a2d59824cb98223, type: 3}
